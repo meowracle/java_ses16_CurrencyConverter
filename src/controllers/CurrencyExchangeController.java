@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class CurrencyExchangeController {
-    @GetMapping("/index")
+    @GetMapping("")
     public String conversion(){
         return "index";
     }
