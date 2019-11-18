@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ses16_CurrencyExchange:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ses16_CurrencyExchange_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ses16_CurrencyExchange/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ses16_CurrencyExchange" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
